@@ -13,6 +13,3 @@ This simple web application allows users to input their name, mobile number, and
 - HTML
 - CSS
 - JavaScript
-
-## Screenshots
-- ![preview](https://imgur.com/a/JHNTZb8)

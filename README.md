@@ -14,8 +14,5 @@ This simple web application allows users to input their name, mobile number, and
 - CSS
 - JavaScript
 
-Screenshots
-- ![first](<images/Screenshot (436).jpg>)
-- ![second](<images/Screenshot (437).png>)
-- ![third](<images/Screenshot (438).png>)
-- 
+## Screenshots
+- ![preview](https://imgur.com/a/JHNTZb8)

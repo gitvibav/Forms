@@ -6,6 +6,7 @@
 }
 
 .user-form{
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: aquamarine;
@@ -41,6 +42,40 @@
     color: white;
     font-weight: bold;
 }
+
+.user-form span{
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+#check-1{
+    position: absolute; /* Change 'display' to 'position' */
+    top: 21%; /* Center the icon vertically */
+    left: 90%; /* Center the icon horizontally */
+    transform: translate(-50%, -50%); /* Ensure the icon is centered */
+    color: seagreen;
+}
+
+#check-2{
+    position: absolute; /* Change 'display' to 'position' */
+    top: 44%; /* Center the icon vertically */
+    left: 90%; /* Center the icon horizontally */
+    transform: translate(-50%, -50%); /* Ensure the icon is centered */
+    color: seagreen;
+}
+
+#check-3{
+    position: absolute; /* Change 'display' to 'position' */
+    top: 67%; /* Center the icon vertically */
+    left: 90%; /* Center the icon horizontally */
+    transform: translate(-50%, -50%); /* Ensure the icon is centered */
+    color: seagreen;
+}
+
+
+#submit-error{
+   margin-left: 34%;
+} 
 
 #list {
     display: flex;

@@ -8,17 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb6ffadde8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="user-form">
         <label for="" >Name:</label>
-        <input type="text" id="name">
+        <input type="text" id="name" placeholder="Enter your name" onkeyup="validateName()">
+        <span id="name-error"></span>
         <label for="" class="elem">Mobile No:</label>
-        <input type="text" id="mobile">
+        <input type="text" id="mobile"  placeholder="Enter your mobile no." onkeyup="validateMobile()">
+        <span id="phone-error"></span>
         <label for="" class="elem">Mail id:</label>
-        <input type="text" id="mail">
+        <input type="text" id="mail" placeholder="Enter your mail id" onkeyup="validateMail()">
+        <span id="email-error"></span>
 
-        <button onclick="addData()">Add</button>
+        <button onclick="validateForm()">Add</button>
+        <span id="submit-error"></span>
     </div>
 
     <div class="list-div">
